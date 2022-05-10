@@ -45,7 +45,7 @@ from etltk.lang.am.normalizer import (
 | normalize_punct (e.g., :: -> ።) | punctuation normalization
 | normalize_char (e.g., ጸሀይ -> ፀሐይ) | character levels normalization
 
-## 3. Text tokenization functions.
+## 3. Text tokenization functions
 
 ```python
 from etltk.tokenize.am import (
@@ -56,5 +56,5 @@ from etltk.tokenize.am import (
 
 | Function | Description |
 -----------|-------------|
-| sent_tokenize | split into sentences
-| word_tokenize | split into words
+| sent_tokenize | splits the raw input text into sentences
+| word_tokenize | splits the raw input text into word

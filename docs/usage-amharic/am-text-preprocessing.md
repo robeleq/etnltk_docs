@@ -6,6 +6,8 @@ sidebar_position: 2
 
 Performing text cleaning using `clean_amharic` function and `preprocessing` module:
 
+- it provides a solid pipeline to clean and represent text data.
+
 ## 1. Text Cleaning using `clean_amharic` function
   
 ```python

@@ -4,9 +4,10 @@ sidebar_position: 1
 
 # Annotation
 
-Amharic text preprocessing with **AmharicDocument**
+Annoteting Amharic text is very simple;
 
-- Preprocessing amharic text is very simple: you can simply pass the text to the AmharicDocument and access all annotations from the returned AmharicDocument object:
+- You can simply pass the text to the `AmharicDocument` and access all annotations from the returned `AmharicDocument` object:
+- An `AmharicDocument` object holds the annotation of an entire document. It contains a collection of `Sentences` and `Word`.
 
 ## 1. Text Cleaning with AmharicDocument
 
@@ -30,7 +31,8 @@ print(doc)
 
 ## 2. Sentence Tokenization with AmharicDocument
 
-- Within AmharicDocument, annotations are further stored in `Sentences`
+- Within `AmharicDocument`, annotations are further stored in `Sentences`
+- A `Sentence` object represents a sentence.
 
 ```python
 from etltk import AmharicDocument
@@ -49,7 +51,8 @@ print(doc.sentences)
 
 ## 3. Word Tokenization with AmharicDocument
 
-- Within AmharicDocument, annotations are further stored in `Words`
+- Within `AmharicDocument`, annotations are further stored in `Word`
+- A `WordList` object holds a list of `Word`
 
 ```python
 from etltk import AmharicDocument

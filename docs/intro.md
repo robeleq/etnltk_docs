@@ -25,7 +25,7 @@ Get started by **Installation**.
 
 ### pip
 
-- [Python](https://nodejs.org/en/download/) version 3.6 or above:
+- [Python](https://www.python.org/downloads/) version 3.6 or above:
   - We recommend that you install etltk via pip, the Python package manager. To install, simply run.
 
   ```python
