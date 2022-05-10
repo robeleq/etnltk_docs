@@ -63,7 +63,12 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [/*
+        items: [
+          {
+            href: 'https://github.com/robikieq/ethiopian_language_toolkit/',
+            label: 'GitHub',
+            position: 'right',
+          }/*
           {
             type: 'doc',
             docId: 'intro',
