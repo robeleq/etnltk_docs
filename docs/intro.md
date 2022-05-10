@@ -1,47 +1,54 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# ETLTK Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Ethiopian Language Toolkit (etltk)** 😊.
+
+Objective:
+
+- The Ethiopian Natural Language Toolkit (ETLTK) project aimed to develop a suite of open source Natural Language Processing modules for the Ethiopian languages.
+
+Why?
+
+- Most of resourced languages such as English and other European countries has tools such as NLTK, SPACY, CLTK and many more that allows to perform text preprocessing, but the same history is not true for Ethiopian local languages.
+
+Inspirations:
+
+- The Ethiopian Language Toolkit (ETLTK) is built using python language and takes inspiration from `spacy` and `nltk` libraries.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **Installation**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### pip
 
-### What you'll need
+- [Python](https://nodejs.org/en/download/) version 3.6 or above:
+  - We recommend that you install etltk via pip, the Python package manager. To install, simply run.
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+  ```python
+  pip install etltk
+  ```
 
-## Generate a new site
+### From Source
 
-Generate a new Docusaurus site using the **classic template**.
+- Alternatively, you can also install from source via [ethiopian_language_toolkit](https://github.com/robikieq/ethiopian_language_toolkit) git repository, which will give you more flexibility in developing on top of etltk. For this option, run:
 
-The classic template will automatically be added to your project after you run the command:
+  ```text
+  git clone https://github.com/robikieq/ethiopian_language_toolkit.git
+  
+  cd ethiopian_language_toolkit
+  
+  pip install -e .
+  ```
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Amharic: አማርኛ
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Take a look at **[Usage Amharic](./category/usage---amharic/)** for more.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- The language serves as the official working language of the Ethiopian federal government.
+- Spoken by more than 100M people arroung the world and all over Ethiopia.
+- Amharic is written left-to-right using a system that grew out of the Geʽez script.
+- The writing system is called fidäl (ፊደል) in Ethiopian Semitic languages.
