@@ -65,6 +65,9 @@ const config = {
         },
         items: [
           {
+            type: 'docsVersionDropdown',
+          },
+          {
             href: 'https://github.com/robikieq/ethiopian_language_toolkit/',
             label: 'GitHub',
             position: 'right',

@@ -25,6 +25,8 @@ Get started by **Installation**.
 
 ### pip
 
+[![PyPI version](https://badge.fury.io/py/etltk.svg)](https://pypi.org/project/etltk/)
+
 - [Python](https://www.python.org/downloads/) version 3.6 or above:
   - We recommend that you install etltk via pip, the Python package manager. To install, simply run.
 
