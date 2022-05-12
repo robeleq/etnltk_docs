@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ETLTK Docs',
+  title: 'ETLTK',
   tagline: 'Ethiopian Language Toolkit (etltk)',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://etltk.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ETLTK Docs',
+        title: 'ETLTK',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -85,6 +85,11 @@ const config = {
             position: 'right',
           },*/
         ],
+      },
+      algolia: {
+        apiKey: "87312262384de43573cc4f645e699569",
+        indexName: "etltk_docusaurus",
+        appId: "0E1IK31L53"
       },
       footer: {
         style: 'dark',
