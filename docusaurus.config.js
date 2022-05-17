@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'robikieq', // Usually your GitHub org/user name.
+  organizationName: 'robeleq', // Usually your GitHub org/user name.
   projectName: 'etnltk', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -38,14 +38,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/robikieq/etnltk_docs/tree/main/',
+            'https://github.com/robeleq/etnltk_docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/robikieq/etnltk_docs/tree/main/',
+            'https://github.com/robeleq/etnltk_docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -68,7 +68,7 @@ const config = {
             type: 'docsVersionDropdown',
           },
           {
-            href: 'https://github.com/robikieq/etnltk/',
+            href: 'https://github.com/robeleq/etnltk/',
             label: 'GitHub',
             position: 'right',
           }/*
@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/robikieq/etnltk_docs/',
+            href: 'https://github.com/robeleq/etnltk_docs/',
             label: 'GitHub',
             position: 'right',
           },*/
