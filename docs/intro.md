@@ -3,13 +3,13 @@ sidebar_position: 1
 slug: /
 ---
 
-# ETLTK Intro
+# ETNLTK Intro
 
-Let's discover **Ethiopian Language Toolkit (etltk)** 😊.
+Let's discover **Ethiopian Natural Language Toolkit (etnltk)** 😊.
 
 Objective:
 
-- The Ethiopian Natural Language Toolkit (ETLTK) project aimed to develop a suite of open source Natural Language Processing modules for the Ethiopian languages.
+- The Ethiopian Natural Language Toolkit (ETNLTK) project aimed to develop a suite of open source Natural Language Processing modules for the Ethiopian languages.
 
 Why?
 
@@ -17,7 +17,7 @@ Why?
 
 Inspirations:
 
-- The Ethiopian Language Toolkit (ETLTK) is built using python language and takes inspiration from `spacy` and `nltk` libraries.
+- The Ethiopian Natural Language Toolkit (etnltk) is built using python language and takes inspiration from `spacy` and `nltk` libraries.
 
 ## Getting Started
 
@@ -25,23 +25,23 @@ Get started by **Installation**.
 
 ### pip
 
-[![PyPI version](https://badge.fury.io/py/etltk.svg)](https://pypi.org/project/etltk/)
+[![PyPI version](https://badge.fury.io/py/etnltk.svg)](https://pypi.org/project/etnltk/)
 
 - [Python](https://www.python.org/downloads/) version 3.6 or above:
-  - We recommend that you install etltk via pip, the Python package manager. To install, simply run.
+  - We recommend that you install etnltk via pip, the Python package manager. To install, simply run.
 
   ```python
-  pip install etltk
+  pip install etnltk
   ```
 
 ### From Source
 
-- Alternatively, you can also install from source via [ethiopian_language_toolkit](https://github.com/robikieq/ethiopian_language_toolkit) git repository, which will give you more flexibility in developing on top of etltk. For this option, run:
+- Alternatively, you can also install from source via [etnltk](https://github.com/robikieq/etnltk) git repository, which will give you more flexibility in developing on top of etnltk. For this option, run:
 
   ```text
-  git clone https://github.com/robikieq/ethiopian_language_toolkit.git
+  git clone https://github.com/robikieq/etnltk.git
   
-  cd ethiopian_language_toolkit
+  cd etnltk
   
   pip install -e .
   ```

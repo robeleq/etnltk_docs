@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Normalization
 
-etltk supports Character Level, Labialized, Punctuation and Short Form Expansion.
+etnltk supports Character Level, Labialized, Punctuation and Short Form Expansion.
 
 - Character Level Normalization such as "`ጸ`ሀይ" and "`ፀ`ሐይ"
 - Labialized Character Normalzation such as "ሞል`ቱዋ`ል" to "ሞል`ቷ`ል"
@@ -14,7 +14,7 @@ etltk supports Character Level, Labialized, Punctuation and Short Form Expansion
 ## 1. Performing normalization using `normalize` function
 
 ```python
-from etltk.lang.am import normalize
+from etnltk.lang.am import normalize
 
 sample_text = """
   ሚያዝያ 14፣ 2014 ዓ.ም በዓገር ደረጃ የሰው ሰራሽ አስተውሎት የውይይት መድረክ ላይ
@@ -50,7 +50,7 @@ The default pipeline for the `normalize` method is the following:
 ## 2. Performing normalization using `normalize_char`, `normalize_punct`, `normalize_labialized`, `normalize_shortened` functions
 
 ```python
-from etltk.lang.am.normalizer import ( 
+from etnltk.lang.am.normalizer import ( 
   normalize_labialized, 
   normalize_shortened,
   normalize_punct,

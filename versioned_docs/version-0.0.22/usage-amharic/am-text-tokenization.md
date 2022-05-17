@@ -4,12 +4,12 @@ sidebar_position: 3
 
 # Tokenization
 
-etltk supports **Sentence** and **Word** tokenization.
+etnltk supports **Sentence** and **Word** tokenization.
 
 ## 1. Performing sentence tokenization using `sentence_tokenize` function
 
 ```python
-from etltk.tokenize.am import sent_tokenize
+from etnltk.tokenize.am import sent_tokenize
 
 sample_text = """
   የማሽን ለርኒንግ ስልተ-ቀመሮች  (Algorithms) በመጠቀም ቋንቋዎችን መለየት እና መረዳት፣ የጽሁፍ ይዘቶችን መለየት፣ የቋንቋን መዋቅር መተንተን የሚያስችሉ የሃገሪኛ ናቹራል ላንጉዌጅ ፕሮሰሲንግ ቱሎች (NLP tools) ፣ ስልተ-ቀመሮች እና ሞዴሎችን ማዘጋጀት ተገቢ ነው። በዚህም መሰረት አማርኛ፣ አፋን ኦሮሞ፣ ሶማሊኛ እና ትግርኛ ቋንቋዎችን ለማሽን የማስተማር ሂደትን ቀላልና የተቀላተፍ እንዲሆን ያስችላል፡፡
@@ -26,7 +26,7 @@ print(sentences)
 ## 2. Performing word tokenization using `word_tokenize` function
 
 ```python
-from etltk.tokenize.am import word_tokenize
+from etnltk.tokenize.am import word_tokenize
 
 sample_text = """
   “ተረኛ፣ ተረኛ!” አለ ነርሱ። ወይዘሮ

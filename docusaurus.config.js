@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/robikieq/etltk_docs/',
+            href: 'https://github.com/robikieq/etnltk_docs/',
             label: 'GitHub',
             position: 'right',
           },*/
@@ -88,8 +88,8 @@ const config = {
       },
       algolia: {
         apiKey: "87312262384de43573cc4f645e699569",
-        indexName: "etltk_docusaurus",
-        appId: "0E1IK31L53"
+        indexName: "etnltk_docusaurus",
+        appId: "6DEN1J9RDO"
       },
       footer: {
         style: 'dark',
@@ -134,7 +134,7 @@ const config = {
             ],
           },*/
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ETLTK Project, Docs created with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ETNLTK Project, Docs created with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

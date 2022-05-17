@@ -9,7 +9,7 @@ Functions and their descriptions are listed below.
 ## 1. Text preprocessing functions
 
 ```python
-from etltk.lang.am import preprocessing
+from etnltk.lang.am import preprocessing
 ```
 
 | Function | Description |
@@ -31,7 +31,7 @@ from etltk.lang.am import preprocessing
 ## 2. Text normalization functions
 
 ```python
-from etltk.lang.am.normalizer import ( 
+from etnltk.lang.am.normalizer import ( 
   normalize_labialized, 
   normalize_shortened,
   normalize_punct,
@@ -49,7 +49,7 @@ from etltk.lang.am.normalizer import (
 ## 3. Text tokenization functions
 
 ```python
-from etltk.tokenize.am import (
+from etnltk.tokenize.am import (
   sent_tokenize,
   word_tokenize
 )
