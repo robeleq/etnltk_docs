@@ -87,7 +87,7 @@ const config = {
         ],
       },
       algolia: {
-        apiKey: "87312262384de43573cc4f645e699569",
+        apiKey: "9f5a6582ca08ff16c435b0bfb581b809",
         indexName: "etnltk_docusaurus",
         appId: "6DEN1J9RDO"
       },
