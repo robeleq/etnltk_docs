@@ -20,7 +20,7 @@ sample_text = """
 """
 
 # `clean_amharic` function uses the default pipeline to clean text
-cleaned = clean_amharic(sample_text)
+cleaned = clean_amharic(input_text)
 
 # print the `clean` text:
 print(cleaned)
